@@ -6,5 +6,7 @@ Sory mehr ist in der kurzen Zeit nicht drin. Ich kannte das Framework nicht und 
 
 # Start this App
 
+```shell
 $ cd blog
 $ php -S 0.0.0.0:8033 -t public
+```
