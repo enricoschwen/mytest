@@ -1,0 +1,45 @@
+{
+  "name": "thinkeloquent/lumen-versions",
+  "keywords": [
+    "framework",
+    "laravel",
+    "lumen"
+  ],
+  "description": "lumen version control",
+  "type": "project",
+  "license": "MIT",
+  "version": "5.2.6.1-stable",
+  "authors": [
+    {
+      "name": "Think Eloquent",
+      "email": "opensource@thinkeloquent.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/lumen-framework": "5.2.6",
+    "vlucas/phpdotenv": "2.2.1"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "~1.4",
+    "phpunit/phpunit": "~4.0",
+    "raveren/kint": "^1.0"
+  },
+  "autoload": {
+    "psr-3": {
+      "App\\": "app/"
+    },
+    "psr-4": {
+      "App\\": "lumen/app/"
+    },
+    "files": [
+      "src/Util/helpers/path.php"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "lumen/tests/",
+      "lumen/database/"
+    ]
+  }
+}

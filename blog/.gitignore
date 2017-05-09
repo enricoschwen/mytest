@@ -1,0 +1,11 @@
+sftp-config*.json
+*.DS_Store
+vendor
+node_modules
+*private.properties
+*private.xml
+*project.properties
+*project.xml
+npm-debug.log
+.idea
+.phpintel
